@@ -16,10 +16,10 @@
 
 
 	if($results[0]->language == 'es'){
-		$ch = curl_init('http://172.31.21.52:5000/webhooks/rest/webhook');
+		$ch = curl_init('http://3.142.151.32:5000/webhooks/rest/webhook');
 	}
 	else{
-		$ch = curl_init('http://172.31.21.52:5000/webhooks/rest/webhook');
+		$ch = curl_init('http://3.142.151.32:5000/webhooks/rest/webhook');
 	}
 
 
